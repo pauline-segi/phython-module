@@ -44,7 +44,7 @@ distance = "5000"
 # dog_name = input("What is your dog's name?")
 # print(f"Nice to meet you {dog_name}")
 
-# whenever you make use of the input function, it stores the data as string, always
+# whenever you make use of the input function, it stores the data as string, always, so you need to convert it to an integer (or number) to do this, you can add int() and then have the variable in there
 
 birth_year = input("What year were you born?")
 print(f"You are {2023-int(birth_year)} years old.")
