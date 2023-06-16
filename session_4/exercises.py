@@ -30,4 +30,13 @@ print(f"The temperature in C is: {celcius_convert(degrees_f)}")
 
 
 
+# Q for project
+
+import 
+
+def celcius_convert(deg_f):
+    deg_c = (deg_f-32)*5/9
+    return deg_c
+print(f"The temperature in C is: {celcius_convert(degrees_f)}")
+
 
