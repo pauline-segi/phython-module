@@ -115,14 +115,14 @@
 # print(sum)
 
 
-# enter_number = int(input("Enter a number: "))
-# odd_numbers = []
-# count = 0
-# while count <= enter_number:
-#     if count % 2 != 0:
-#         odd_numbers.append(count)
-#     count += 1    
-# print(odd_numbers)
+enter_number = int(input("Enter a number: "))
+odd_numbers = []
+count = 0
+while count <= enter_number:
+    if count % 2 != 0:
+        odd_numbers.append(count)
+    count += 1    
+print(odd_numbers)
 
 
 # print("I'm thinking of a number")
